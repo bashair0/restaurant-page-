@@ -1,4 +1,13 @@
 import _ from 'lodash'
 import './style.css'
 
-console.log('Hi~')
+import { pageLoad } from './home'
+
+function component () {
+  const content = document.querySelector('#content')
+  content.appendChild(pageLoad())
+
+  return content
+}
+
+component()

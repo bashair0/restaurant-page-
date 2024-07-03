@@ -6,13 +6,25 @@
     <title>Restaurant page</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <button type="button">Home</button>
-        <button type="button">Menu</button>
-        <button type="button">About us</button>
+    <header class="flex">
+      <nav class="nav">
+        <ul class="flex">
+          <li>
+            <button type="button" id="home-btn" class="nav-item active-item">
+              Home
+            </button>
+          </li>
+          <li>
+            <button type="button" id="menu-btn" class="nav-item">Menu</button>
+          </li>
+          <li>
+            <button type="button" id="about-btn" class="nav-item">
+              About us
+            </button>
+          </li>
+        </ul>
       </nav>
     </header>
-    <div id="content"></div>
+    <div id="content" class="home-page"></div>
   </body>
 </html>
