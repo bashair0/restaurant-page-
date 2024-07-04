@@ -7,7 +7,7 @@ export const menu = () => {
 
   const flavorsList = document.createElement('ul')
   flavorsList.classList.add('soup-flavors', 'grid')
-  flavorsList.innerHTML = `<h2>soup flavors</h2>
+  flavorsList.innerHTML = `<h2>Soup flavors</h2>
           <li>mala soup<span> (麻辣锅底)</span></li>
           <li>tomato soup <span>(番茄锅底)</span></li>
           <li>spicy sour soup <span>(酸辣锅底)</span></li>
@@ -15,7 +15,7 @@ export const menu = () => {
 
   const addOnsList = document.createElement('ul')
   addOnsList.classList.add('add-ons', 'grid')
-  addOnsList.innerHTML = `<h2>Meets and vegetables</h2>
+  addOnsList.innerHTML = `<h2>Meat and Vegetables</h2>
           <li>Vermicelli <span>(粉丝)</span></li>
           <li>Black fungus <span>(木耳)</span></li>
           <li>Mushroom <span>(香菇)</span></li>
